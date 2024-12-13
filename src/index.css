@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(31, 29, 29);
+  color: white;
+}
+
+nav{
+  width: 100vw;
+  height: 62px;
+  background-color: rgb(43, 45, 146);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 52px;
+}
+
+ul li{
+  list-style: none;
+  cursor: pointer;
+  font-size: large;
+}
+
+.container{
+  margin-top: 21px;
+  width: 50%;
+  margin: auto;
+}
+
+.container .box{
+margin-top: 35px;
+}
+
+.createTasks input{
+  padding: 7px 21px;
+  border-radius: 12px 0px 0px 12px;
+  background-color: rgba(172, 162, 162, 0.37);
+  border: 0px;
+  color: rgb(240, 230, 230);
+  font-size: large;
+  font-weight: 500;
+  width: 512px;
+}
+
+.createTasks button{
+  padding: 7px 14px;
+  border-radius: 0px 12px 12px 0px;
+  background-color: rgb(43, 45, 146);
+  border: 0px;
+  color: rgb(240, 230, 230);
+  font-size: large;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.yourTasks h2{
+  margin-top: 21px;
+}
+
+.yourTasks .list{
+  margin-top: 14px;
+}
+
+
+.list div input{
+  cursor: pointer;
+}
+
+.list div{
+  display: flex;
+  gap: 52px;
+  font-size: large;
+  font-weight: 700;
+  margin: 12px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editor button{
+  padding: 6px 10px;
+  border-radius: 12px;
+  background-color: rgb(43, 45, 146);
+  border: 0px;
+  color: rgb(240, 230, 230);
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
